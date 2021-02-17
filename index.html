@@ -10,6 +10,9 @@
 	    <a-asset-item id="tree-mtl" src="./modelobj.mtl"></a-asset-item>
   	</a-assets>
   	<a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl"></a-entity>
+	<a-entity id="cameraWrapper" wasd-controls="acceleration:100" position="0 2 10" rotation="0 0 0">
+    	<a-camera near="0.1" user-height="0" id="camera"></a-camera>
+  	</a-entity>
   </a-scene>
  </body>
 </html>
