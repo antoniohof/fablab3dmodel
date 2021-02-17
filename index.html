@@ -5,7 +5,11 @@
  </head>
  <body>
   <a-scene environment="preset: default">
-      <a-entity id="entity" ply-model="src: ./model.ply" position="0 0 0" rotation="-90 0 0"></a-entity>
+    <a-assets>
+	    <a-asset-item id="tree-obj" src="./modelobj.obj"></a-asset-item>
+	    <a-asset-item id="tree-mtl" src="./modelobj.mtl"></a-asset-item>
+  	</a-assets>
+  	<a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl"></a-entity>
   </a-scene>
  </body>
 </html>
