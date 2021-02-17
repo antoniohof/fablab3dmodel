@@ -7,8 +7,8 @@
  <body>
   <a-scene environment="preset: default">
     <a-assets>
-	    <a-asset-item id="tree-obj" src="./objFixed.obj"></a-asset-item>
-	    <a-asset-item id="tree-mtl" src="./objFixed.mtl"></a-asset-item>
+	    <a-asset-item id="tree-obj" src="./LowPoly Printer.obj"></a-asset-item>
+	    <a-asset-item id="tree-mtl" src="./LowPoly Printer.mtl"></a-asset-item>
         <a-asset-item id="gltfmodel" src="./untitled.gltf"></a-asset-item>
         <a-asset-item id="makerbot" src="./makerbot.gltf"></a-asset-item>
 
@@ -22,7 +22,7 @@
 
 	   <a-entity position="0 0 0" rotation="0 0 0" scale="1 1 1" gltf-model="#makerbot"></a-entity>
 
-  		<!--<a-obj-model rotation="-90 0 0" scale="10 10 10" src="#tree-obj" mtl="#tree-mtl"></a-obj-model>-->
+  		<a-obj-model rotation="0 0 0" scale="1 1 1" src="#tree-obj" mtl="#tree-mtl"></a-obj-model>
 
 		<a-entity light="intensity: 2; type: ambient; color: #BBB"></a-entity>
 		<a-entity light="type: directional; color: #FFF; intensity: 1.4" position="-0.5 1 1"></a-entity>
