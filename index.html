@@ -16,12 +16,8 @@
 
   		<a-obj-model scale="0.01 0.01 0.01" src="#tree-obj" mtl="#tree-mtl"></a-obj-model>
 
-  		<a-entity scale="0.01 0.01 0.01" obj-model="obj: #tree-obj; mtl: #tree-mtl"></a-entity>
+  		<a-entity scale="0.01 0.01 0.01"  ply-model="src: model.ply"></a-entity>
 
-        <a-entity 
-            obj-model=”obj: url(https://rishavjayswal.github.io/augmented-reality/resources/couch.obj); 
-            mtl: url(https://rishavjayswal.github.io/augmented-reality/resources/couch.mtl)”>
-        </a-entity>
 
 	<a-entity id="cameraWrapper" position="0 0 0" rotation="0 0 0">
     	<a-camera near="0.1" user-height="0" id="camera"></a-camera>
