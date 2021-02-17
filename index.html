@@ -6,7 +6,8 @@
  <body>
   <a-scene environment="preset: default">
     <a-assets>
-	 
+	    <a-asset-item id="tree-obj" src="./objFixed.obj"></a-asset-item>
+	    <a-asset-item id="tree-mtl" src="./objFixed.mtl"></a-asset-item>
         <a-asset-item id="gltfmodel" src="./model.gltf"></a-asset-item>
 
   	</a-assets>
@@ -14,8 +15,9 @@
   	  <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
       <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
 
-		<a-entity gltf-model="#gltfmodel"></a-entity>
+  			<a-entity gltf-model="#gltfmodel"></a-entity>
 
+  		<a-obj-model scale="0.01 0.01 0.01" src="#tree-obj" mtl="#tree-mtl"></a-obj-model>
 
 
 
