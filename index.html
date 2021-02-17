@@ -1,12 +1,11 @@
 <html>
  <head>
    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
- <script src="sketchloader.js"></script>
 
  </head>
  <body>
   <a-scene environment="preset: default">
-      <a-entity sload="url: https://api.sketchfab.com/v3/models/f39f669afbe04cfd927ab92246865524/download; token: b0b3d366fa9142849d190a6668664fcd;"></a-entity>
+      <a-entity id="entity" ply-model="src: ./model.ply" position="0 0 0" rotation="-90 0 0"></a-entity>
   </a-scene>
  </body>
 </html>
