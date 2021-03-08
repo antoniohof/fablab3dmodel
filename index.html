@@ -7,10 +7,10 @@
  <body>
   <a-scene environment="preset: default">
     <a-assets>
-	    <a-asset-item id="tree-obj" src="./LowPoly Printer.obj"></a-asset-item>
-	    <a-asset-item id="tree-mtl" src="./LowPoly Printer.mtl"></a-asset-item>
-        <a-asset-item id="gltfmodel" src="./untitled.gltf"></a-asset-item>
-        <a-asset-item id="makerbot" src="./LowPoly_Printer_Packed.gltf"></a-asset-item>
+	    <a-asset-item id="export-obj" src="https://drive.google.com/file/d/1IDXeeN3b-17V6C-WDhJvQd4TDBG3FpwH/view?usp=sharing"></a-asset-item>
+	   <!-- <a-asset-item id="tree-mtl" src="./LowPoly Printer.mtl"></a-asset-item>-->
+        <!--<a-asset-item id="gltfmodel" src="./untitled.gltf"></a-asset-item>-->
+        <!--<a-asset-item id="makerbot" src="./LowPoly_Printer_Packed.gltf"></a-asset-item>-->
 
 
   	</a-assets>
@@ -18,11 +18,11 @@
   	  <a-box scale="2 2 2" position="31.84 -11.6 -5.09" rotation="0 45 0" color="#4CC3D9"></a-box>
       <a-sphere scale="2 2 2" position="22.21 -16.6 16.64" radius="1.25" color="#EF2D5E"></a-sphere>
 
-	   <a-entity position="-6 0 -20" rotation="-90 0 0" scale="10 10 10" gltf-model="#gltfmodel"></a-entity>
+	   <!--<a-entity position="-6 0 -20" rotation="-90 0 0" scale="10 10 10" gltf-model="#gltfmodel"></a-entity>-->
 
-	   <a-entity position="27.33 -12.7 -6.85" rotation="0 0 0" scale="10 10 10" gltf-model="#makerbot"></a-entity>
+	  <!-- <a-entity position="27.33 -12.7 -6.85" rotation="0 0 0" scale="10 10 10" gltf-model="#makerbot"></a-entity>-->
 
-  		<!--<a-obj-model rotation="0 0 0" scale="1 1 1" src="#tree-obj" mtl="#tree-mtl"></a-obj-model>-->
+  		<a-obj-model rotation="0 0 0" scale="1 1 1" src="#export-obj" ></a-obj-model>
 
 		<a-entity light="intensity: 2; type: ambient; color: #BBB"></a-entity>
 		<a-entity light="type: directional; color: #FFF; intensity: 1.4" position="-0.5 1 1"></a-entity>
